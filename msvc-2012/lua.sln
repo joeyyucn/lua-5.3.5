@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liblua", "liblua.vcxproj", "{0F04FE9B-D880-4781-9C27-6D65E6A99C2D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "lua.vcxproj", "{EABF92A4-54F4-4AB2-BBA5-0727163AD0D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F04FE9B-D880-4781-9C27-6D65E6A99C2D} = {0F04FE9B-D880-4781-9C27-6D65E6A99C2D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luac", "luac.vcxproj", "{EB623E3D-27A3-49B2-B4A5-2733DFA1833C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F04FE9B-D880-4781-9C27-6D65E6A99C2D} = {0F04FE9B-D880-4781-9C27-6D65E6A99C2D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F04FE9B-D880-4781-9C27-6D65E6A99C2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F04FE9B-D880-4781-9C27-6D65E6A99C2D}.Debug|Win32.Build.0 = Debug|Win32
+		{0F04FE9B-D880-4781-9C27-6D65E6A99C2D}.Release|Win32.ActiveCfg = Release|Win32
+		{0F04FE9B-D880-4781-9C27-6D65E6A99C2D}.Release|Win32.Build.0 = Release|Win32
+		{EABF92A4-54F4-4AB2-BBA5-0727163AD0D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EABF92A4-54F4-4AB2-BBA5-0727163AD0D9}.Debug|Win32.Build.0 = Debug|Win32
+		{EABF92A4-54F4-4AB2-BBA5-0727163AD0D9}.Release|Win32.ActiveCfg = Release|Win32
+		{EABF92A4-54F4-4AB2-BBA5-0727163AD0D9}.Release|Win32.Build.0 = Release|Win32
+		{EB623E3D-27A3-49B2-B4A5-2733DFA1833C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB623E3D-27A3-49B2-B4A5-2733DFA1833C}.Debug|Win32.Build.0 = Debug|Win32
+		{EB623E3D-27A3-49B2-B4A5-2733DFA1833C}.Release|Win32.ActiveCfg = Release|Win32
+		{EB623E3D-27A3-49B2-B4A5-2733DFA1833C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
